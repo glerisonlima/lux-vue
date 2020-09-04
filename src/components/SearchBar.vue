@@ -2,7 +2,6 @@
   <div>
     <form>
       <input type="text" name="busca" id="busca" v-model="busca" />
-      {{busca}}
       <router-link  :to="{name: 'Usuario', params: {user: this.busca}}"><img src="@/assets/search.svg" /></router-link>
     </form>
   </div>
